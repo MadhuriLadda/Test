@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230404 14:36:15.013" rpa="false" schemaversion="3">
+<suite id="s1" name="TC1" source="c:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo\andromeda\ui\TC1.robot">
+<test id="s1-t1" name="Upwotk_homepage" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.upwork.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230404 14:36:15.174" level="INFO">Opening browser 'chrome' to base url 'https://www.upwork.com/'.</msg>
+<status status="PASS" starttime="20230404 14:36:15.174" endtime="20230404 14:36:26.528"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230404 14:36:26.530" endtime="20230404 14:36:27.022"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230404 14:36:37.031" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230404 14:36:27.029" endtime="20230404 14:36:37.031"/>
+</kw>
+<kw name="ClickCustom" library="Click">
+<arg>//*[@class='nav-logo']</arg>
+<kw name="Set Global Variable" library="BuiltIn">
+<arg>${isScreenshotNeeded}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<msg timestamp="20230404 14:36:37.036" level="INFO">${isScreenshotNeeded} = </msg>
+<status status="PASS" starttime="20230404 14:36:37.035" endtime="20230404 14:36:37.038"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${arg1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230404 14:36:37.041" level="INFO">Clicking element '//*[@class='nav-logo']'.</msg>
+<status status="PASS" starttime="20230404 14:36:37.039" endtime="20230404 14:36:42.388"/>
+</kw>
+<status status="PASS" starttime="20230404 14:36:37.033" endtime="20230404 14:36:42.388"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230404 14:36:52.390" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230404 14:36:42.389" endtime="20230404 14:36:52.390"/>
+</kw>
+<kw name="ClickCustom" library="Click">
+<arg>//*[@data-cy="nav-secondary-menu"]//a[contains(text(),'Development &amp; IT')]</arg>
+<kw name="Set Global Variable" library="BuiltIn">
+<arg>${isScreenshotNeeded}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<msg timestamp="20230404 14:36:52.394" level="INFO">${isScreenshotNeeded} = </msg>
+<status status="PASS" starttime="20230404 14:36:52.393" endtime="20230404 14:36:52.395"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${arg1}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230404 14:36:52.397" level="INFO">Clicking element '//*[@data-cy="nav-secondary-menu"]//a[contains(text(),'Development &amp; IT')]'.</msg>
+<status status="PASS" starttime="20230404 14:36:52.395" endtime="20230404 14:36:57.593"/>
+</kw>
+<status status="PASS" starttime="20230404 14:36:52.392" endtime="20230404 14:36:57.593"/>
+</kw>
+<status status="PASS" starttime="20230404 14:36:15.173" endtime="20230404 14:36:57.595"/>
+</test>
+<status status="PASS" starttime="20230404 14:36:15.017" endtime="20230404 14:36:57.597"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

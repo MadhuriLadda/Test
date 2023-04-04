@@ -1,0 +1,17 @@
+1680598643025	geckodriver	INFO	Listening on 127.0.0.1:52946
+1680598643542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52947" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\w132910\\AppData\\Local\\Temp\\rust_mozprofileLBwUaC"
+1680598644032	Marionette	INFO	Marionette enabled
+1680598644039	Marionette	INFO	Listening on port 52971
+Read port: 52971
+WebDriver BiDi listening on ws://127.0.0.1:52947
+1680598644507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\w132910\\AppData\\Local\\Temp\\rust_mozprofileLBwUaC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52947/devtools/browser/b433053b-2496-46ff-ba53-3d16b0af2fd3
+JavaScript warning: https://4c4cc75a16ed.cdn4.forter.com/sn/4c4cc75a16ed/script.js, line 13: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ob.cityrobotflower.com/i/516858f3f9efc799b493c6fec34c75df.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript error: resource://devtools/client/jsonview/Sniffer.sys.mjs, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://ob.cityrobotflower.com/i/516858f3f9efc799b493c6fec34c75df.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680598812112	Marionette	INFO	Stopped listening on port 52971

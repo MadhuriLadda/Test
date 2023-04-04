@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230404 14:27:20.639" rpa="false" schemaversion="3">
+<suite id="s1" name="Issuing-Testing-Framework" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework">
+<suite id="s1-s1" name="Keywords" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords">
+<suite id="s1-s1-s1" name="Ibo" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo">
+<suite id="s1-s1-s1-s1" name="Andromeda" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo\andromeda">
+<suite id="s1-s1-s1-s1-s1" name="Ui" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo\andromeda\ui">
+<suite id="s1-s1-s1-s1-s1-s1" name="Sample Upwork" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo\andromeda\ui\sample_upwork">
+<suite id="s1-s1-s1-s1-s1-s1-s1" name="TC1" source="C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo\andromeda\ui\sample_upwork\TC1.robot">
+<test id="s1-s1-s1-s1-s1-s1-s1-t1" name="Upwotk_homepage" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.upwork.com/</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230404 14:27:20.875" level="INFO">Opening browser 'firefox' to base url 'https://www.upwork.com/'.</msg>
+<msg timestamp="20230404 14:27:20.877" level="INFO">Firefox driver log is always forced to to: C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\results\geckodriver-1.log</msg>
+<status status="PASS" starttime="20230404 14:27:20.875" endtime="20230404 14:27:30.518"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230404 14:27:40.520" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20230404 14:27:30.519" endtime="20230404 14:27:40.522"/>
+</kw>
+<kw name="ClickCustom">
+<arg>//*[@class='nav-logo']</arg>
+<msg timestamp="20230404 14:27:40.534" level="FAIL">No keyword with name 'ClickCustom' found.</msg>
+<status status="FAIL" starttime="20230404 14:27:40.529" endtime="20230404 14:27:40.536"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20230404 14:27:40.543" endtime="20230404 14:27:40.543"/>
+</kw>
+<kw name="ClickCustom">
+<arg>//*[@data-cy="nav-secondary-menu"]//a[contains(text(),'Development &amp; IT')]</arg>
+<status status="NOT RUN" starttime="20230404 14:27:40.548" endtime="20230404 14:27:40.553"/>
+</kw>
+<status status="FAIL" starttime="20230404 14:27:20.874" endtime="20230404 14:27:40.558">No keyword with name 'ClickCustom' found.</status>
+</test>
+<status status="FAIL" starttime="20230404 14:27:20.686" endtime="20230404 14:27:40.560"/>
+</suite>
+<status status="FAIL" starttime="20230404 14:27:20.683" endtime="20230404 14:27:40.572"/>
+</suite>
+<status status="FAIL" starttime="20230404 14:27:20.679" endtime="20230404 14:27:40.577"/>
+</suite>
+<status status="FAIL" starttime="20230404 14:27:20.674" endtime="20230404 14:27:40.586"/>
+</suite>
+<status status="FAIL" starttime="20230404 14:27:20.671" endtime="20230404 14:27:40.590"/>
+</suite>
+<status status="FAIL" starttime="20230404 14:27:20.668" endtime="20230404 14:27:40.594"/>
+</suite>
+<status status="FAIL" starttime="20230404 14:27:20.648" endtime="20230404 14:27:40.602"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Issuing-Testing-Framework">Issuing-Testing-Framework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Keywords">Issuing-Testing-Framework.Keywords</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Ibo">Issuing-Testing-Framework.Keywords.Ibo</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1" name="Andromeda">Issuing-Testing-Framework.Keywords.Ibo.Andromeda</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1" name="Ui">Issuing-Testing-Framework.Keywords.Ibo.Andromeda.Ui</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1-s1" name="Sample Upwork">Issuing-Testing-Framework.Keywords.Ibo.Andromeda.Ui.Sample Upwork</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1-s1-s1-s1-s1" name="TC1">Issuing-Testing-Framework.Keywords.Ibo.Andromeda.Ui.Sample Upwork.TC1</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230404 14:27:20.689" level="ERROR">Error in file 'C:\Users\w132910\OneDrive - Worldline\Bureau\myProjects\issuing-testing-framework\keywords\ibo\andromeda\ui\sample_upwork\TC1.robot' on line 2: Resource file '..sample_upworkClick.resource' does not exist.</msg>
+</errors>
+</robot>

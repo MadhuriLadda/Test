@@ -1,0 +1,5 @@
+{
+	"blockingReason": "LOST",
+	"lostStolenDate": "{{$isoTimestamp}}",
+	"lossPlace": "{{$randomStreetName}}"
+}

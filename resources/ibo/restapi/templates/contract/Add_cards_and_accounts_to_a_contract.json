@@ -1,0 +1,56 @@
+{
+	"customers": [
+		{
+			"requestCorrelationId": "1",
+			"courtesyTitle": "M",
+			"lastName": "ANNABATHINA",
+			"firstName": "{{tc08_childName}}",
+			"birthDate": "1967-09-09",
+			"onlineRiskCategory": "Standard",
+			"offlineRiskCategory": "Standard",
+			"commercialStatus": "Normal",
+			"issuerCustomerExternalReference": "CUS_EXT_REF_SUB_{{tc08_addCard_testCaseUniqueNumber}}",
+			"addresses": [
+				{
+					"addressLabel": "MAIN_POSTAL_ADDRESS",
+					"addressType": "POSTAL_MAIL",
+					"issuerAddressExternalReference": "ADD_EXT_REF_SUB_{{tc08_addCard_testCaseUniqueNumber}}",
+					"postalAddress": {
+						"line1": "{{tc08_childName}} ANNABATHINA",
+						"buildingNumber": "{{$randomInt}}",
+						"streetName": "{{$randomStreetName}}",
+						"postCode": "9000",
+						"townName": "GENT",
+						"country": "BE"
+					}
+				}
+			]
+		}
+	],
+	"issuerProductExtensionExternalReference": "{{issuerProductExternalReference}}",
+	"accountHierarchy": {
+		"accounts": [
+			{
+				"accountTemplateReference": "{{accountTemplateReference}}",
+				"issuerAccountExternalReference": "ACC_EXT_REF_SUB_{{tc08_addCard_testCaseUniqueNumber}}",
+				"iban": "{{iban5}}",
+				"secondIban": "{{iban6}}",
+				"accountOwnerRequestCorrelationId": "1"
+			}
+		]
+	},
+	"cardContracts": [
+		{
+			"cardTemplateReference": "{{cardTemplateReference}}",
+			"forcedEmbossingName": "{{tc08_childName}} ANNABATHINA",
+			"issuerCardContractExternalReference": "CARD_CNT_EXT_REF_{{tc08_addCard_testCaseUniqueNumber}}",
+			"card": {
+				"cardOrder": {
+					"sendingMode": "Normal"
+				},
+				"issuerCardExternalReference": "CARD_EXT_REF_SUB_{{tc08_addCard_testCaseUniqueNumber}}"
+			},
+			"cardHolderRequestCorrelationId": "1"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"replacementReason": "CARD_MALFUNCTION",
+	"cardContract": {
+		"card": {
+			"issuerCardExternalReference": "replace_card_ext_ref_XXX",
+			"cardOrder": {
+				"sendingMode": "Normal"
+			}
+		}
+	}
+}

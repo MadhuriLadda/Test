@@ -1,0 +1,107 @@
+{
+	"customers": [
+		{
+			"requestCorrelationId": "1",
+			"issuerCustomerExternalReference": "CUS_EXT_REF_{{uniqueNumber}}",
+			"active": true,
+			"courtesyTitle": "Mr",
+			"lastName": "ANNABATHINA",
+			"firstName": "{{firstName}}",
+			"onlineRiskCategory": "Standard",
+			"offlineRiskCategory": "Standard",
+			"commercialStatus": "Normal",
+			"secondFirstName": "test",
+			"maidenName": "test",
+			"sex": "M",
+			"birthDate": "{{cntr_dob}}",
+			"birthPlace": "GENT",
+			"nationality": "FRANCE",
+			"profession": "Job",
+			"employerName": "ANNABATHINA {{firstName}}",
+			"employerAddress": "GENT BE",
+			"monthlySalary": 600000,
+			"maritalStatus": "Married",
+			"preferredCorrespondenceLanguage": "fr",
+			"picture": "test",
+			"url1": "url1_test",
+			"url2": "url2_test",
+			"secretQuestion": "What is your favourite colour?",
+			"secretAnswer": "{{Color}}",
+			"vatNumber": "VATNumber",
+			"vatCountry": "VATCountry",
+			"customerClass": "A catageri",
+			"employee": true,
+			"partnerExternalReference": "PAT_EXT_REF_{{uniqueNumber}}",
+			"doNotContact": true,
+			"addresses": [
+				{
+					"addressLabel": "MAIN_POSTAL_ADDRESS",
+					"addressType": "POSTAL_MAIL",
+					"postalAddress": {
+						"line1": "{{firstName}} ANNABATHINA",
+						"buildingNumber": "{{buildingNumber}}",
+						"boxNumber": "{{boxNumber}}",
+						"streetName": "{{streetName}}",
+						"postCode": "9000",
+						"townName": "GENT",
+						"country": "BE"
+					},
+					"emailAddress": {
+						"email": "{{firstName}}.annabathina@wgs.com"
+					},
+					"addressUsages": [
+						{
+							"addressUsageName": "STATEMENT_SENDING",
+							"entityReference": "e7881bbb-90c3-40c2-af08-9-15f8a16aac7",
+							"serviceCode": "ACCOUNT_SERVICE"
+						}
+					],
+					"issuerAddressExternalReference": "ADD_EXT_REF_{{uniqueNumber}}"
+				}
+			]
+		}
+	],
+	"contract": {
+		"issuerProductExternalReference": "{{issuerProductExternalReference}}",
+		"contractOwnerRequestCorrelationId": "1",
+		"cardReleaseOrder": "AUTOMATIC",
+		"issuerBranchCode": "NO_BRANCH",
+		"feeReimbursementAtCardContractClosing": true,
+		"waiveFee": true,
+		"accountHierarchy": {
+			"accounts": [
+				{
+					"issuerAccountExternalReference": "ROOT_ACC_EXT_REF_{{uniqueNumber}}",
+					"accountTemplateReference": "{{rootAccountTemplateReference}}",
+					"iban": "{{iban1}}",
+					"secondIban": "{{iban2}}"
+				},
+				{
+					"issuerAccountExternalReference": "CHILD_ACC_EXT_REF_{{uniqueNumber}}",
+					"accountTemplateReference": "{{accountTemplateReference}}",
+					"iban": "{{iban3}}",
+					"secondIban": "{{iban4}}"
+				}
+			]
+		},
+		"cardContracts": [
+			{
+				"card": {
+					"issuerCardExternalReference": "card_ext_ref_{{uniqueNumber}}",
+					"cardOrder": {
+						"sendingMode": "Normal",
+						"skipCardOrderGeneration": false
+					},
+					"pinMailerOrder": {
+						"sendingMode": "Normal",
+						"skipPinMailerOrderGeneration": false
+					}
+				},
+				"issuerCardContractExternalReference": "CARD_CNT_EXT_REF_{{uniqueNumber}}",
+				"cardTemplateReference": "{{cardTemplateReference}}",
+				"issuerBranchCode": "NO_BRANCH",
+				"forcedEmbossingName": "{{firstName}} ANNABATHINA"
+			}
+		]
+	}
+}
